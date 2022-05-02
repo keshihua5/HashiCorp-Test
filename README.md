@@ -4,9 +4,7 @@
 - `git fetch` - get changes from a remote repo into your tracking branch.
 - `git pull` -  get changes from a remote branch into your tracking branch and merge them into a local branch.
 
-Often `git push` and `git pull` are described as equivalent; this is not entirely correct. 
-
-Under the hood, `git push` does two things:
+Often `git push` and `git pull` are described as equivalent; this is not entirely correct. Under the hood, `git push` does two things:
 
 1.  It takes our current branch and checks to see whether or not there is a tracking branch for a remote repository connected to it. 
 2. If so, our changes are taken from our branch and pushed to the remote branch. 
